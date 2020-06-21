@@ -1,1 +1,3 @@
-Crash course for beginners - Traversy Media (YouTube)
+#Crash course for beginners
+Author: Traversy Media
+Source: YouTube

@@ -18,9 +18,17 @@ $ git rm --cached <file>        *Remove changes from index/stage*
 $ git rm -f <file>              *Force remove from repo even if staged*  
 $ git commit -m <message>       *Commit changes in index/stage*
 $ git commits                   *Goes to commit window for messaging (i to INSERT, Esc and :wq to QUIT)*
+$ git log                       *View history of commits (add: --name-only, --name-status)*
+$ git branch <name>             *Creates a new branch*
+$ git branch                    *Shows list of branches (asterisk denotes current branch)*
+$ git checkout <name>           *Switch to another branch*
+$ git merge <name> -m <message> *Merge branch with master (apply from master)*
 **Git commands for remote repo:**
-$ git push                      *Push to remote repository (GitHub)*
-$ git pull                      *Pull latest from remote repository*
+$ git remote                    *Lits all remote repos*
+$ git remote add origin <url>   *Add a remote repo to local repo*
+$ git push -u origin master     *Push local repo to origin repo (first time)*
+$ git push                      *Push to remote repo (GitHub)*
+$ git pull                      *Pull latest from remote repo*
 $ git clone <repository>        *Copy repository to new local directory*
 **CMD commands:**
 $ touch                         *Creates new file in current directory*
